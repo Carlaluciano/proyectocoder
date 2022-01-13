@@ -144,9 +144,9 @@ li a:hover{
    height: 350px;
    border-radius: 30px;
 
+ }
 
-}
-/*Aplico transformacion a las fotos*/
+ /*Aplico transformacion a las fotos*/
 
 .foto:hover{
     transform: scale(2);
@@ -155,8 +155,6 @@ li a:hover{
 
     
 }
-
-
 
 .image  a {
         display: none;
