@@ -1,5 +1,5 @@
 *{
-    margin: 1px;
+    margin: 0;
     padding: 0;
 }
 
@@ -7,10 +7,7 @@
 /* Moble*/
      
 @media only screen and (max-width: 480px) {
-    body {
-        background-color: #375a9f;
-    }
-
+  
    }
 /*tablet*/
    @media only screen and (min-width:481px) and (max-width:768px) {
@@ -36,51 +33,42 @@ li{
     justify-content: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #6b95ff;
+    background-color:#005d9d;
     color:#f3f3f3;
     padding: 5px;
     
     
 }
 
-.nav{
-   background-color:#6b95ff;
+nav{
+    background-color: #6b95ff;
 }
-li a{
-    display: block;
+
+ul li a:hover{
+    background-color:white;
     color: black;
-    text-align: center;
-    text-decoration: none;
-    
-
-    }
-
-li a:hover{
-    background-color: #375a9f;
     
 }
 /*efecto parallax del header*/
 .imagen-header{
-    background-image: url("multimedia/oficina.jpg");
+    background-image: url("Multimedia/oficina.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    opacity: 90%;
 }
 
 
-
-
-.img-conteiner{
-    display: flex;
-   
-}
-
-.fotos-servicios{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+.carousel-inner img {
+    width: 70%;
+    height: 700px;
     
+    
+}
+
+
+.fotos-servicios:hover{
+    border: 5px solid #f7f7f7;
 }
 
 .titulo,.servicios,.nosotros,.siniestros{
@@ -150,6 +138,17 @@ li a:hover{
 
  }
 
+ .nosotros,.siniestros{
+    padding: 20px;
+    line-height: 40px;
+   
+ }
+
+ .fotonosotros{
+     padding: 50px;
+     text-align: center;
+ }
+
  /*Aplico transformacion a las fotos*/
 
 .foto:hover{
@@ -178,26 +177,14 @@ h2,h3,p {
 
 /*iconos y enlaces de redes sociales*/
 
-.redes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.redes img {
-    display: inline-block;
-    margin: 0 5px;
-    height: 30px;
-    text-align: center;
-
-}
+    
 
 
 
 
 
-
-.footer{
+footer{
     background-color:#6b95ff;
 }
 
