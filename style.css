@@ -126,6 +126,12 @@ ul li a:hover{
     
     
 }
+
+.nosotros1{
+    background-color:white;
+    padding: 150px;
+}
+
 /*uso grid para la cuadricula de imagenes*/
 .auto,.moto,.casa,.familia,.ahorro,.vida {
    display: grid;
@@ -142,6 +148,11 @@ ul li a:hover{
     padding: 20px;
     line-height: 40px;
    
+ }
+
+ .siniestro1{
+     background-color: white;
+     padding: 150px;
  }
 
  .fotonosotros{
@@ -174,8 +185,6 @@ ul li a:hover{
 h2,h3,p {
     text-align-last: center;
 }
-
-/*iconos y enlaces de redes sociales*/
 
 
     
