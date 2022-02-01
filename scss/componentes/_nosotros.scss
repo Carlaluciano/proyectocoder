@@ -1,0 +1,22 @@
+/*aplicando variables*/
+.nosotros1{
+    background-color: $bg-color;
+    padding: 150px;
+}
+
+.seguro{
+    color:$color-letras;
+    font-family: $font;
+}
+
+/*nesting*/
+nav{
+    background-color: $color-principal;
+    ul{
+        li a:hover{
+            background-color:white;
+            color: black;
+
+        }
+    }
+}
